@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(153, 98, 241, 0.568),
+      rgba(59, 15, 70, 0.856)
+    ),
+    url("../images/landingBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.title{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+/*  The title from the first section ----------------- */
+.title-top{
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+}
+.title-bottom{
+    font-family: 'Ephesis', cursive;
+    font-size: 5rem;
+}
+
+/* The sign-in prompt button from the first section */
+
+.landingSignIn{
+    color: white;
+    margin-top: 1rem;
+    box-shadow: 0 0 8px 1px white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.landingSignIn:hover{
+    color: black;
+    background: white;
+    box-shadow: 0 0 10px 2px white;
+    transition: all 1s;
+}
+
