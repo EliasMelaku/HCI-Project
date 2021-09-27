@@ -1,46 +1,69 @@
-body {
+body,
+html {
+  /* remove default padding and margin */
+  margin: 0;
+  padding: 0;
+  /* overflow-y: hidden; */
+}
+
+/* ================================================================ */
+/*                          First/Title section */
+/* ================================================================ */
+
+.title {
   background-image: linear-gradient(
       to bottom,
-      rgba(153, 98, 241, 0.568),
-      rgba(59, 15, 70, 0.856)
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.45)
     ),
     url("../images/landingBackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
-.title{
-    color: white;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-
-}
 /*  The title from the first section ----------------- */
-.title-top{
-    font-family: 'Staatliches', cursive;
-    font-size: 3rem;
+.heading {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+  text-align: center;
 }
-.title-bottom{
-    font-family: 'Ephesis', cursive;
-    font-size: 5rem;
+.title-top {
+  font-family: "Staatliches", cursive;
+  font-size: 4rem;
+}
+.title-bottom {
+  font-family: "Ephesis", cursive;
+  font-size: 5rem;
 }
 
 /* The sign-in prompt button from the first section */
 
-.landingSignIn{
-    color: white;
-    margin-top: 1rem;
-    box-shadow: 0 0 8px 1px white;
-    border-radius: 0.5rem;
-    padding: 1rem;
+.landingSignIn {
+  color: white;
+  position: absolute;
+  top: 28rem;
+  left: 35%;
+  /* margin-top: 3rem; */
+  /* box-shadow: 0 0 8px 1px white; */
+  border: 2px solid white;
+  border-radius: 2rem;
+  padding: 0.2rem 2.5rem;
+  font-family: "Ephesis", cursive;
+  font-size: 2rem;
 }
-.landingSignIn:hover{
-    color: black;
-    background: white;
-    box-shadow: 0 0 10px 2px white;
-    transition: all 1s;
+.landingSignIn:hover {
+  color: black;
+  background: white;
+  box-shadow: 0 0 10px 2px white;
+  transition: all 1s;
 }
+/* ================================================================ */
+/*                          Second section */
+/* ================================================================ */
 
+.second .col{
+   padding: 2rem;
+}

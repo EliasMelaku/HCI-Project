@@ -1,3 +1,4 @@
+/* remove all styling from links by default */
 a{
     text-decoration: none;
     color: white;
@@ -5,4 +6,16 @@ a{
 a:hover{
     color: aliceblue;
     font-weight: bold;
+}
+/* give a standard height for section divs */
+
+.section{
+    height: 50vh;
+    background: white;
+    width: 100%;
+}
+
+.section img{
+    width: 8rem;
+    height: 6rem;
 }
